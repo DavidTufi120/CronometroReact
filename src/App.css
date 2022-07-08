@@ -15,9 +15,33 @@ a{
   
 }
 
+@media(min-width:750px){
+
+  img {
+    width: 55%;
+    padding-top: 5%;
+  }
+  .timer{
+    margin-top: 70%;
+    font-size: 100px;
+    object-fit: fill
+  }
+
+.container{
+  display: flex;
+  width: 60%;
+  margin-left: 25%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+}
+
+@media(max-width:749px){
 img{
   width: 40%;
   padding-top: 15%;
+}
 }
 
 .timer{
